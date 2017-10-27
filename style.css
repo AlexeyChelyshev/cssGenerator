@@ -1,5 +1,20 @@
 #block{
     width: 200px;
     height: 100px;
-    background: gray;
+    background: springgreen;
+    box-shadow: 0 0 5px #666666;
+    margin: 0 auto;
+}
+#block1{
+    padding:  10px 10px 20px 10px;
+    margin: 10px;
+    border-radius: 10px 10px 75px 10px;
+    background: dodgerblue;
+    font-family: Arial, Impact, sans-serif ;
+    box-shadow: 0 0 5px #666666;
+}
+#mainBlock{
+    width: 1000px;
+    height: 500px;
+    margin: 0 auto;
 }
