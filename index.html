@@ -2,9 +2,30 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Css generator</title>
+    <script src="script.js"></script>
 </head>
 <body>
-    <script type="text/javascript" src="script.js"></script>
+    <div class="block1">
+        <p>верхний левый угол
+            <input type="range" id="rtl" min="0" max="100" value="0" oninput="fun1()">
+            <input type="text" id="ttl" value="0">
+        </p>
+        <p>верхний правый угол
+            <input type="range" id="rtr" min="0" max="100" value="0" oninput="fun1()">
+            <input type="text" id="ttr" value="0">
+        </p>
+        <p>нижний левый угол
+            <input type="range" id="rbl" min="0" max="100" value="0" oninput="fun1()">
+            <input type="text" id="tbl" value="0">
+        </p>
+        <p>нижний правый угол
+            <input type="range" id="rbr" min="0" max="100" value="0" oninput="fun1()">
+            <input type="text" id="tbr" value="0">
+        </p>
+    </div>
+
+    <div class="block" id="block"></div>
 </body>
 </html>
